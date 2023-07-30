@@ -1,0 +1,7 @@
+.headerSection {background: rgb(52, 152, 219);padding: 5px 0;}
+.menulogo img {width: 160px;height: auto;}
+.menuber { }
+.menuber ul { text-align: right; }
+.menuber ul li {display: inline-block;border-right: 1px solid white;margin-left: -4px;}
+.menuber ul li a {display: inline-block;color: white;text-decoration: none;text-transform: uppercase;font-size: 20px;padding: 0 20px;line-height: 2;transition: all 0.5s ease 0s;}
+.menuber ul li a:hover { color: wheat; }
