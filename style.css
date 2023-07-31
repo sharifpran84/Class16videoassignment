@@ -1,7 +1,137 @@
-.headerSection {background: rgb(52, 152, 219);padding: 5px 0;}
-.menulogo img {width: 160px;height: auto;}
-.menuber { }
-.menuber ul { text-align: right; }
-.menuber ul li {display: inline-block;border-right: 1px solid white;margin-left: -4px;}
-.menuber ul li a {display: inline-block;color: white;text-decoration: none;text-transform: uppercase;font-size: 20px;padding: 0 20px;line-height: 2;transition: all 0.5s ease 0s;}
-.menuber ul li a:hover { color: wheat; }
+.headerSection {
+    background: rgb(52, 152, 219);
+    padding: 5px 0px;
+}
+
+.menulogo img {
+    width: 200px;
+    height: auto;
+}
+
+.menuber {
+}
+
+.menuber ul {
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.menuber ul li {
+    display: inline-block;
+    border-right: 1px solid white;
+    margin-left: -4px;
+}
+
+.menuber ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 0px 20px;
+    line-height: 3;
+    transition: all 0.5s ease 0s;
+}
+
+.menuber ul li a:hover {
+    color: wheat;
+}
+
+.bannerSeciton {
+    background-image: url("./image-slider-with-thumbnail1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 200px 0px;
+}
+
+.banner h1 {
+    text-transform: capitalize;
+    background: rgba(221, 221, 221, 0.867);
+    padding: 15px 25px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.banner h6 {
+    font-size: 25px;
+    padding: 15px 20px;
+    background: rgb(221, 221, 221);
+    border-radius: 5px;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.aboutsection {
+    background: rgb(228, 232, 233);
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    width: 1100px;
+    margin: auto;
+    font-size: 19px;
+}
+
+.cardSection {
+    background: rgba(250, 250, 250, 0.98);
+}
+.card{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.card span {
+    margin: 20px 0px;
+}
+
+.crd i {
+    background: blue;
+    height: 60px;
+    width: 60px;
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+    border-radius: 25px 0px;
+}
+
+.crd h1 {
+    text-transform: capitalize;
+}
+
+.crd p {
+    font-size: 19px;
+    text-align: justify;
+    padding: 20px;
+}
+/* service setion */
+.serviceSection{
+    padding: 50px;
+}
+.notic h2{
+    font-size: 35px;
+    border-bottom: 5px solid #ddd;
+}
+.notic{
+    text-align: left;
+}
+.notic ul{padding-left: 0;}
+.notic ul li{
+    list-style: none;
+    border: 1px solid #dddd;
+    background: #fafafa;
+    padding: 8px 0px;
+    margin: 10px 0;
+}
+/* footere Section */
+.footerSection{
+    background: navy;
+}
+.logo i {
+    padding: 0 15px;
+    font-size: 20px;
+}
